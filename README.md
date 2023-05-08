@@ -35,3 +35,7 @@ async function main() {
 
 main()
 ```
+
+The above example will output the following to the console:
+
+![](doc/animation.gif)
