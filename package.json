@@ -1,6 +1,6 @@
 {
   "name": "sleep-dots",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Light library to sleep with log with dynamic dots.",
   "type": "module",
   "scripts": {
