@@ -1,0 +1,51 @@
+{
+  "name": "sleep-dots",
+  "version": "0.0.0",
+  "description": "Light library to sleep with log with dynamic dots.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@types/node": "20.1.0",
+    "typescript": "4.9.3",
+    "vite": "4.1.0",
+    "vite-plugin-dts": "2.3.0"
+  },
+  "main": "./dist/sleep-dots.umd.cjs",
+  "module": "./dist/sleep-dots.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/sleep-dots.js",
+      "require": "./dist/sleep-dots.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Fentos",
+    "email": "fentos.dev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fentosv/sleep-dots.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fentosv/sleep-dots/issues"
+  },
+  "homepage": "https://github.com/fentosv/sleep-dots",
+  "keywords": [
+    "sleep",
+    "sleep function",
+    "wait",
+    "wait function",
+    "dots",
+    "dynamic dots",
+    "fentos",
+    "fentosv"
+  ]
+}
