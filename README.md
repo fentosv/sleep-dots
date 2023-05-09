@@ -30,7 +30,12 @@ const sleepWithLog = require('sleep-dots')
 
 async function main() {
   console.log('Start sleeping...')
-  await sleepWithLog({ totalTime: 5000, customMessage: 'Waiting for data', stepTime: 1000, finalBreakLine: false })
+  await sleepWithLog({
+    customMessage: 'Waiting for data',
+    finalBreakLine: false,
+    stepTime: 1000,
+    totalTime: 5000,
+  })
   console.log('Wake up!')
 }
 
