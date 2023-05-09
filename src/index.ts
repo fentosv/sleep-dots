@@ -1,13 +1,13 @@
-import timeFormatter from './timeFormatter'
 import overrideLastConsoleLine from './overrideLastConsoleLine'
+import timeFormatter from './timeFormatter'
 
 const sleep = (miliseconds: number) => new Promise((resolve) => setTimeout(resolve, miliseconds))
 
 const sleepWithLog = async ({
-  totalTime = 3000,
   customMessage = 'Waiting for',
-  stepTime = 500,
   finalBreakLine = true,
+  stepTime = 500,
+  totalTime = 3000,
 }) => {
   const FORMATTED_TIME = timeFormatter(totalTime)
 
