@@ -1,6 +1,6 @@
 # sleep-dots 💤
 
-> A light utility (524 bytes gzipped) for pausing the program execution for a specified amount of time and displaying a message with moving dots.
+> A light utility (549 bytes gzipped) for pausing the program execution for a specified amount of time and displaying a message with moving dots.
 
 ## Installation 💻
 
