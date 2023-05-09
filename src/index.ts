@@ -10,7 +10,7 @@ const sleepWithLog = async ({
   totalTime = 3000,
 }) => {
   const FORMATTED_TIME = timeFormatter(totalTime)
-  const finalCharacter = finalBreakLine ? '\n' : ''
+  const finalLine = finalBreakLine ? '\n\n' : '\n'
   let remainingMiliseconds = totalTime
   let dots = ''
 
@@ -19,13 +19,13 @@ const sleepWithLog = async ({
     remainingMiliseconds -= stepTime
 
     dots.length < 3 ? (dots += '.') : (dots = '')
-    const outputMessage = `${customMessage} ${FORMATTED_TIME}${dots.padEnd(4, ' ')}${finalCharacter}`
+    const outputMessage = `${customMessage} ${FORMATTED_TIME}${dots.padEnd(4, ' ')}`
     overrideLastConsoleLine(outputMessage)
 
     await sleep(stepToWait)
   }
 
-  process.stdout.write('\n')
+  process.stdout.write(finalLine)
 }
 
 export default sleepWithLog
