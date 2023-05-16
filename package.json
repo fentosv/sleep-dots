@@ -1,7 +1,7 @@
 {
   "name": "sleep-dots",
   "version": "1.1.1",
-  "description": "Light Node library to sleep with log with dynamic dots.",
+  "description": "Light Node.js library to sleep with log with dynamic dots.",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -47,6 +47,8 @@
     "wait function",
     "dots",
     "dynamic dots",
+    "node",
+    "nodejs",
     "fentos",
     "fentosv"
   ]
